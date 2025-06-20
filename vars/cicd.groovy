@@ -15,7 +15,7 @@ def deployTomcat(jobname, ipaddress, contextpath)
 
 def testing(repo,jobname)
 {
-  git "https://github.com/IntelliqDevops/${repo}.git"
+  git "https://github.com/RAVIN3/${repo}.git"
   sh "java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar"
 }
 
